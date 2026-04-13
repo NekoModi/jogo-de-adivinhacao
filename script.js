@@ -1,4 +1,4 @@
-let numeroAleatorio = Math.floor(Math.random() * 20) + 1;
+let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 let tentativas = 10;
 document.getElementById("botao").addEventListener("click", conferir);
 
